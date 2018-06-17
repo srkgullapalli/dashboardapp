@@ -1,0 +1,298 @@
+{
+	"AppNames": [
+		{
+			"appName": "CLM",
+			"subAppNames": [
+				{
+					"subAppName": "CLM1",
+					"Records": [
+						{
+							"year": "2017",
+							"values": [
+								{
+									"month": "Nov",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Dec",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "60",
+									"percent penetration": "100"
+								}
+							]
+						},
+						{
+							"year": "2018",
+							"values": [
+								{
+									"month": "Jan",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Feb",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "30",
+									"percent penetration": "50"
+								},
+								{
+									"month": "Mar",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "30",
+									"percent penetration": "50"
+								},
+								{
+									"month": "Apr",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "30",
+									"percent penetration": "50"
+								},
+								{
+									"month": "May",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "30",
+									"percent penetration": "50"
+								}
+							]
+						}
+					]
+				},
+				{
+					"subAppName": "CLM2",
+					"Records": [
+						{
+							"year": "2017",
+							"values": [
+								{
+									"month": "Nov",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Dec",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "20",
+									"percent penetration": "33"
+								}
+							]
+						},
+						{
+							"year": "2018",
+							"values": [
+								{
+									"month": "Jan",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Feb",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "20",
+									"percent penetration": "33"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"appName": "PSI",
+			"subAppNames": [
+				{
+					"subAppName": "PSI1",
+					"Records": [
+						{
+							"year": "2017",
+							"values": [
+								{
+									"month": "Nov",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Dec",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "40",
+									"percent penetration": "66"
+								}
+							]
+						},
+						{
+							"year": "2018",
+							"values": [
+								{
+									"month": "Jan",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Feb",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "40",
+									"percent penetration": "66"
+								}
+							]
+						}
+					]
+				},
+				{
+					"subAppName": "PSI2",
+					"Records": [
+						{
+							"year": "2017",
+							"values": [
+								{
+									"month": "Nov",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Dec",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "60",
+									"percent penetration": "100"
+								}
+							]
+						},
+						{
+							"year": "2018",
+							"values": [
+								{
+									"month": "Jan",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Feb",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "60",
+									"percent penetration": "100"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"appName": "DLI",
+			"subAppNames": [
+				{
+					"subAppName": "DLI1",
+					"Records": [
+						{
+							"year": "2017",
+							"values": [
+								{
+									"month": "Nov",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Dec",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "60",
+									"percent penetration": "100"
+								}
+							]
+						},
+						{
+							"year": "2018",
+							"values": [
+								{
+									"month": "Jan",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Feb",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "10",
+									"percent penetration": "16"
+								}
+							]
+						}
+					]
+				},
+				{
+					"subAppName": "DLI2",
+					"Records": [
+						{
+							"year": "2017",
+							"values": [
+								{
+									"month": "Nov",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Dec",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "50",
+									"percent penetration": "83"
+								}
+							]
+						},
+						{
+							"year": "2018",
+							"values": [
+								{
+									"month": "Jan",
+									"totalTests": "90",
+									"automatable": "90",
+									"automated": "60",
+									"percent penetration": "66"
+								},
+								{
+									"month": "Feb",
+									"totalTests": "60",
+									"automatable": "60",
+									"automated": "60",
+									"percent penetration": "100"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

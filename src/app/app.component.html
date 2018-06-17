@@ -1,0 +1,44 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="jumbotron">
+    <h2 align="middle">Provider Dashboard App</h2><br/>
+  <div class="container">
+    <div class="row">
+      <div class="col">      
+        <div class="form-group"> 
+             <label for="ApplicationNames">Application Names :</label>
+          <select [(ngModel)]="appName" class="form-control" id="ApplicationNames" (change)="(loadSupAppNames(appName))">
+            <option *ngFor="let app of applicationNames" value="{{app.name}}">{{app.name}}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="SubAppNames">Sub App Names :</label>
+          <select [(ngModel)]="subAppName" class="form-control" id="SubAppNames" (change)="(loadData(appName,subAppName))">
+            <option *ngFor="let subApp of subAppNames" value="{{subApp.name}}">{{subApp.name}}</option>
+          </select><br/>
+          <button class="btn btn-primary" type="button" name="submit" value="Submit" align="right">Submit</button>
+        </div>
+      </div>
+      <div class="col-xl-10">
+        <div>
+          <google-chart [data]="pieChartData"></google-chart>
+        </div>
+      </div>
+    </div>
+  </div>
+  Application : {{appName}}
+  Sub Application : {{subAppName}}
+  <table class="table">
+    <thead>
+        <th>Total Tests</th>
+        <th>Total Automated</th>
+        <th>Month</th>      
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of allValues">
+       <td> {{x.TotalTests}}</td>
+       <td> {{x.TotalAutomated}}</td>
+       <td> {{x.Month}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
