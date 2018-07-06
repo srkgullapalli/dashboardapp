@@ -50,8 +50,17 @@ function getTableRecords(appnameurl, subappnameurl) {
 
     var records = myAppData.sibling('Records');
     var resultArray = records.firstElm();
-  
-    return resultArray;
+
+   return resultArray.sort(function(a, b){
+        var dateA=new Date(a.year), dateB=new Date(b.year)
+        return dateB-dateA //sort by date ascending
+    });
+
+    var resultDynamic =[];
+
+    for(var i=0;i<5;i++) {
+        resultDynamic.push();
+    }
 }
 
 const port = process.env.PORT || 3000;

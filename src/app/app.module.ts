@@ -10,7 +10,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule, FormsModule, Ng2GoogleChartsModule ,HttpClientModule
+    BrowserModule,
+    FormsModule,
+    Ng2GoogleChartsModule ,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
