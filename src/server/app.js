@@ -50,18 +50,29 @@ function getTableRecords(appnameurl, subappnameurl) {
 
     var records = myAppData.sibling('Records');
     var resultArray = records.firstElm();
+    sortData(resultArray);
 
-   return resultArray.sort(function(a, b){
-        var dateA=new Date(a.year), dateB=new Date(b.year)
-        return dateB-dateA //sort by date ascending
-    });
+    var counter = 0;
+    var sortedResult = [];
 
-    var resultDynamic =[];
-
-    for(var i=0;i<5;i++) {
-        resultDynamic.push();
+    loop1:
+    for (var key of resultArray) {
+        loop2:
+        for (var record of key['values']) {
+            sortedResult.push(record);
+            counter++;
+            if (counter == 5)
+                break loop1;
+        }
     }
+    return sortedResult;
 }
 
+function sortData(jsonArray) {
+    jsonArray.sort(function (a, b) {
+        var dateA = new Date(a.year), dateB = new Date(b.year)
+        return dateB - dateA //sort by date ascending
+    });
+}
 const port = process.env.PORT || 3000;
 let server = app.listen(port, () => { console.log(`app running on port ${port}`) });
